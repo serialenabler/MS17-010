@@ -52,7 +52,7 @@ Anonymous user (null session) get more restriction on default settings of new Wi
 * If you get an error called "ImportError: No module named v5" , clone impacket from here and dump it in the same directory as the python file: https://github.com/SecureAuthCorp/impacket
 * If you get "ImportError: No module named pyasn1.type.univ", pip install pyasn1
 * If you get "ImportError: No module named Cryptodome.Hash", pip install pycryptodomex
-
+* If you get "impacket.smb.SessionError: SMB SessionError: STATUS_ACCESS_DENIED({Access Denied}", the script is working but your target may not be vulnerable, check with metasploit module scanner/smb/smb_ms17_010 (you should probably have checked first before you got to this step :D)
 
 
 ## Disclaimer
