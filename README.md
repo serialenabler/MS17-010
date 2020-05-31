@@ -3,9 +3,11 @@
 This repository is for public my work on MS17-010. I have no plan to do any support. **All support issues will not get response from me**.
 
 ## What you'll need to run this
-* apt install python-impacket
-* A reverse.exe file in your / directory (think msfvenom)
+* apt install python-impacket (see troubleshooting tips at bottom of this guide if you run into other issues)
+* A reverse.exe file in your / directory (think msfvenom) - if you're using zzz_exploit.py
 
+## Usage
+* python zzz_exploit.py <ip> [pipe_name]
 
 ## Files
 
@@ -49,7 +51,9 @@ Anonymous user (null session) get more restriction on default settings of new Wi
 ## Troubleshooting
 * If you get an error called "ImportError: No module named v5" , clone impacket from here and dump it in the same directory as the python file: https://github.com/SecureAuthCorp/impacket
 * If you get "ImportError: No module named pyasn1.type.univ", pip install pyasn1
-* If you get "ImportError: No module named Cryptodome.Hash", 
+* If you get "ImportError: No module named Cryptodome.Hash", pip install pycryptodomex
+
+
 
 ## Disclaimer
 
