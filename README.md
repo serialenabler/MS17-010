@@ -2,6 +2,11 @@
 
 This repository is for public my work on MS17-010. I have no plan to do any support. **All support issues will not get response from me**.
 
+## What you'll need to run this
+* apt install python-impacket
+* A reverse.exe file in your / directory (think msfvenom)
+
+
 ## Files
 
  * **BUG.txt** MS17-010 bug detail and some analysis
@@ -41,3 +46,7 @@ Anonymous user (null session) get more restriction on default settings of new Wi
 * **Eternalromance** requires access to named pipe. The exploit can target Windows < 8 because the bug for info leak is fixed in Windows 8. The exploit should have a chance to crash a target lower than Eternalblue. I never test a reliable of the exploit.
 * **Eternalsynergy** requires access to named pipe. I believe this exploit is modified from Eternalromance to target Windows 8 and later. Eternalsynergy uses another bug for info leak and does some trick to find executable memory (I do not know how it works because I read only output log and pcap file).
 
+## Troubleshooting
+If you get an error called "ImportError: No module named v5" , clone impacket from here and dump it in the same directory as the python file: https://github.com/SecureAuthCorp/impacket
+If you get "ImportError: No module named pyasn1.type.univ", pip install pyasn1
+If you get "ImportError: No module named Cryptodome.Hash", 
