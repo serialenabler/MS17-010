@@ -47,9 +47,9 @@ Anonymous user (null session) get more restriction on default settings of new Wi
 * **Eternalsynergy** requires access to named pipe. I believe this exploit is modified from Eternalromance to target Windows 8 and later. Eternalsynergy uses another bug for info leak and does some trick to find executable memory (I do not know how it works because I read only output log and pcap file).
 
 ## Troubleshooting
-If you get an error called "ImportError: No module named v5" , clone impacket from here and dump it in the same directory as the python file: https://github.com/SecureAuthCorp/impacket
-If you get "ImportError: No module named pyasn1.type.univ", pip install pyasn1
-If you get "ImportError: No module named Cryptodome.Hash", 
+* If you get an error called "ImportError: No module named v5" , clone impacket from here and dump it in the same directory as the python file: https://github.com/SecureAuthCorp/impacket
+* If you get "ImportError: No module named pyasn1.type.univ", pip install pyasn1
+* If you get "ImportError: No module named Cryptodome.Hash", 
 
 ## Disclaimer
 
