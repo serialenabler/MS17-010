@@ -50,3 +50,7 @@ Anonymous user (null session) get more restriction on default settings of new Wi
 If you get an error called "ImportError: No module named v5" , clone impacket from here and dump it in the same directory as the python file: https://github.com/SecureAuthCorp/impacket
 If you get "ImportError: No module named pyasn1.type.univ", pip install pyasn1
 If you get "ImportError: No module named Cryptodome.Hash", 
+
+## Disclaimer
+
+This work is for educational purposes only and should be used at most for Pentesting. Please respect your local laws.
